@@ -138,7 +138,7 @@ function addProduct() {
             console.log("");
             console.log("Product (" + prodArr[id-1][1] + ") stock increased from " + prodArr[id-1][3] + " to " + quantity);
             console.log("");
-            selectOption(); /// manager option function call
+            selectOption(); // manager option function call
         });
     });
 }
